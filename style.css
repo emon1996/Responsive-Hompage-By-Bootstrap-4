@@ -1,0 +1,134 @@
+
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('Images/Background\ Image.png');
+    background-position: 0% 9%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav-link .navbar-brand{
+    color: aquamarine !important;
+}
+.navbar-brand{
+    font-size: 5vh !important; 
+}
+.nav-link{
+    font-size: 1.3vw;    
+}
+.nav-link:hover{
+    color:black !important;
+    background-color:aliceblue;    
+    transition: .8s;
+}
+.content{
+    margin-top: 17vw;
+    margin-bottom: 35vw;
+}
+h1{
+    font-size: 5vw !important;
+}
+p{
+    font-size: 22px !important;
+    text-align: center;
+}
+.parallax{
+    background-image: url('Images/739905.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 30vw;
+    background-position: center;
+    color: wheat;
+    align-items: center;
+    display: flex;
+}
+input[type='text']{
+    width: 25vw;
+}
+#msg{
+    height: 30px;
+    width: 400px
+}
+#msg:hover{
+    color: rgb(13, 14, 14);
+    background-color: lightgray;
+    transition: 0.8s;
+    height: 160px;
+    width: 710px
+}
+.paralax2{
+    background-attachment: fixed;
+    background-image: url(Images/pexels-photo-91229.jpeg);
+    background-position: 50%;
+    height: 40vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.paralax2 h2{
+    color: black;
+    padding-bottom: 5vh;
+}
+.paralax2 p{
+    color: black;
+    font-size: 1.3vw;
+}
+.btn1{
+    color: black;
+    background-color: transparent;
+    float: left;
+}
+.btn2{
+    color: black;
+    background-color: transparent;
+    float: right;
+}
+.cols3{
+    position: relative;
+}
+.count{
+    position: absolute;
+    top:28%;
+    left: 38%;
+}
+.footer{
+    background-image: url(Images/Footer.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+.rights{
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #msg{
+        height: 30px;
+        width: 100px;
+    }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
